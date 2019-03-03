@@ -1,0 +1,244 @@
+.third-main{
+    display:flex;
+    justify-content: center;
+}
+.business{
+    background-color: #D0E9EA;
+    margin:10px;
+    text-align: center;
+    flex:2;
+}
+#business-heading{
+    font-size:25px;
+    margin-top:70px;
+    margin-bottom:0px;
+}
+.business-links{
+    text-decoration: none;
+    color:	#26cfd4;
+}
+#business-para{
+    margin-bottom:37px;
+    font-size:15px;
+}
+.mobile-image{
+    align-self: center;
+}
+.encryption{
+    background-color: #EDF8F5;
+    margin:10px;
+    text-align: center;
+    flex:2;
+}
+.encrpy-para{
+    font-size:14px;
+}
+.end-to-end-para{
+    font-size:12px;
+    color:gray;
+}
+#security{
+    font-size:25px;
+    margin-top:0px;
+}
+.iframe{
+    margin-top:50px;
+    width:250px;
+    height:250px;
+}
+@media screen and (max-width: 500px) {
+    .third-main{
+        flex-direction:column;
+    }
+}
+.feature{
+    display:flex;
+    justify-content: center;
+    padding:6vw;
+}
+.section{
+    border:2px solid #1EBEA5;
+    border-radius : 50px;
+    text-align: center;
+    padding:15px 30px;
+}
+.section a{
+    color:#1EBEA5;
+    text-decoration: none;
+    position:relative;
+}
+@media only screen and (max-width:640px){
+    .section{
+    display:flex;
+    justify-content: center;
+    padding:15px 30px;
+    display:inline-block;
+}
+}
+* {
+  box-sizing: border-box;
+}
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #1ebea5;
+    font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "sans-serif";
+}
+li{
+  float: right;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a , .dropbtn{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active), .dropdown:hover .dropbtn  {
+  background-color: #1ebea5;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+    .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-info {
+    list-style-type: none;
+    float: left;
+    background-color: white;
+    margin-left: 200px;
+    text-align: left;
+
+padding-left: 0px;
+
+vertical-align: middle;
+}
+    .col-6{
+        margin-right: 200px;
+    }
+
+.header-img {
+    max-width: 50%;
+    float: left;
+}
+    h1{
+        font-size: 33px;
+font-weight: 300;
+line-height: 35px;
+margin-bottom: 24px;
+    }
+    p{
+        opacity: 0.8;
+    }
+    .links{
+        float: left;
+        margin-left: 10px;
+    }
+   /*footer*/
+.footer{
+    display: flex;
+    background-color: rgb(37, 37, 44);
+    justify-content: space-evenly;
+    padding-top: 35px;
+}
+.same{
+  color: #ccc;
+}
+.each > *{
+    line-height: 30px;
+}
+
+.each1 > * {
+    line-height: 45px;
+    font-size:17px; 
+}
+
+.end{
+    background-color: rgb(29, 26, 34);
+    display:flex;
+    width: 100%;
+}
+.part1{
+    
+    flex-basis: 30%;
+    display: flex;
+    justify-content: flex-end;
+    color: #ccc;
+    padding-top: 10px;
+     
+}
+.part2{
+    
+    flex-basis: 60%;
+    color: #ccc;
+    padding-top: 10px;   
+}
+.image2{ 
+    padding-bottom:0px;
+    margin-top: 111px;
+    margin-bottom: 0px;
+}
+
+    .whatsp a{
+        text-decoration: none;
+    }
+    .company a{
+        text-decoration: none;
+    }
+    .dload a{
+        text-decoration: none;
+    }
+    .help a{
+        text-decoration: none;
+        
+    }
